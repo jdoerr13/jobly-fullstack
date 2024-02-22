@@ -1,4 +1,3 @@
-Jobly
 Jobly is a full-stack job search platform designed to streamline the process of finding and applying for jobs. Developed with React, Reactstrap, and a Node.js backend, Jobly offers a seamless user experience.
 
 Key Features
