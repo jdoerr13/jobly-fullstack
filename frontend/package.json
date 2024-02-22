@@ -1,0 +1,30 @@
+{
+  "name": "my-app-name",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.6.7",
+    "bootstrap": "^5.3.2",
+    "jsonwebtoken": "^9.0.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "2.0.5",
+    "reactstrap": "^9.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
