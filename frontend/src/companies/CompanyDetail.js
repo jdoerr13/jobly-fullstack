@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import JoblyApi  from "./api";
+import JoblyApi  from "../api";
 import {useParams} from 'react-router-dom'
-import JobCard from "./JobCard";
+import JobCard from "../jobs/JobCard";
 import { Container, Row, Col } from "reactstrap";
 
 //Displays detailed information about a company, including a list of jobs at that company.

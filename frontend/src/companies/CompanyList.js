@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import JoblyApi  from "./api";
+import JoblyApi  from "../api";
 import CompanyCard from "./CompanyCard";
 import { Container, Row, Col, Form, Input, Button } from "reactstrap";
 

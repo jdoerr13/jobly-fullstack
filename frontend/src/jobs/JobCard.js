@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
-import UserContext from "./UserContext";
+import UserContext from "../auth/UserContext";
 import { Container, Row, Col } from "reactstrap"; // Import Container, Row, and Col components from Reactstrap if you're using it
 
 // Shows information about a single job. Can be reused in both the JobList and CompanyDetail components.

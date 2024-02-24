@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import JoblyApi from "./api";
+import JoblyApi from "../api";
 import JobCard from "./JobCard";
-import { Container, Row, Col, Form, FormGroup, Input, Button } from "reactstrap"; // Assuming you're using Reactstrap
+import { Container, Row, Col, Form, Input, Button } from "reactstrap"; // Assuming you're using Reactstrap
 
 // Displays a list of jobs, allowing users to search or filter. Each job is represented by a JobCard.
 function JobList() {

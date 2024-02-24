@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from "react";
 import { useHistory } from 'react-router-dom'; 
 import JoblyApi from './api'; 
-import UserContext from "./UserContext";
+import UserContext from "./auth/UserContext";
 import { Alert, Form, FormGroup, Label, Input, Button, Container, Row, Col } from "reactstrap";
 
 //Allows users to view and edit their profile.

@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./NavBar.css";
 import { NavLink } from "react-router-dom";
 import { Navbar, Nav, NavItem, Button } from "reactstrap";
-import UserContext from "./UserContext"; 
+import UserContext from "../auth/UserContext";
 
 
 // Displays navigation links. Shows different links based on user authentication status.

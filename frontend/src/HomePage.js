@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Card, CardBody, CardTitle, Button, Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
-import UserContext from "./UserContext";
+import UserContext from "./auth/UserContext";
 
 function HomePage() {
   const { currentUser } = useContext(UserContext);
